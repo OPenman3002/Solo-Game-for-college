@@ -45,11 +45,11 @@ public class Player : MonoBehaviour
 
         if (vertical > 0 && horizontal < 0)
         {
-            GetComponent<Animator>().SetBool("diagonal", true);
+            GetComponent<Animator>().SetBool("+ve_left_x_diagonal", true);
         }
         else
         {
-            GetComponent<Animator>().SetBool("diagonal", false);
+            GetComponent<Animator>().SetBool("+ve_left_x_diagonal", false);
         }
     }
 }

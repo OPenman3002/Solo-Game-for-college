@@ -26,7 +26,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: diagonal
+  - m_Name: +ve_left_x_diagonal
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -53,7 +53,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102278905996014704}
@@ -80,7 +80,7 @@ AnimatorStateTransition:
     m_ConditionEvent: vertMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102966585069886582}
@@ -107,7 +107,7 @@ AnimatorStateTransition:
     m_ConditionEvent: horMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102311665601085234}
@@ -134,7 +134,7 @@ AnimatorStateTransition:
     m_ConditionEvent: horMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102248453070876572}
@@ -158,7 +158,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102278905996014704}
@@ -209,7 +209,7 @@ AnimatorStateTransition:
     m_ConditionEvent: horMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102311665601085234}
@@ -236,7 +236,7 @@ AnimatorStateTransition:
     m_ConditionEvent: vertMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102966585069886582}
@@ -263,7 +263,7 @@ AnimatorStateTransition:
     m_ConditionEvent: vertMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102063432072281344}
@@ -290,7 +290,7 @@ AnimatorStateTransition:
     m_ConditionEvent: horMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102311665601085234}
@@ -317,7 +317,7 @@ AnimatorStateTransition:
     m_ConditionEvent: horMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102248453070876572}
@@ -368,7 +368,7 @@ AnimatorStateTransition:
     m_ConditionEvent: horMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102311665601085234}
@@ -395,7 +395,7 @@ AnimatorStateTransition:
     m_ConditionEvent: horMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102248453070876572}
@@ -419,7 +419,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102278905996014704}
@@ -446,7 +446,7 @@ AnimatorStateTransition:
     m_ConditionEvent: vertMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102063432072281344}
@@ -521,7 +521,7 @@ AnimatorStateTransition:
     m_ConditionEvent: horMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102248453070876572}
@@ -548,7 +548,7 @@ AnimatorStateTransition:
     m_ConditionEvent: vertMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102063432072281344}
@@ -575,7 +575,7 @@ AnimatorStateTransition:
     m_ConditionEvent: vertMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102966585069886582}
@@ -599,7 +599,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102278905996014704}
@@ -626,7 +626,7 @@ AnimatorStateTransition:
     m_ConditionEvent: horMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102248453070876572}
@@ -653,7 +653,7 @@ AnimatorStateTransition:
     m_ConditionEvent: vertMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102063432072281344}
@@ -677,7 +677,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   - m_ConditionMode: 4
     m_ConditionEvent: horMoves
@@ -704,7 +704,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102278905996014704}
@@ -731,7 +731,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Idle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102072154211980996}
@@ -758,7 +758,7 @@ AnimatorStateTransition:
     m_ConditionEvent: vertMoves
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: diagonal
+    m_ConditionEvent: +ve_left_x_diagonal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102966585069886582}
