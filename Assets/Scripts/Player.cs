@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
         HandleMovement(horizontal, vertical);
 
         GetComponent<Animator>().SetFloat("vertMoves", vertical);
-
+        GetComponent<Animator>().SetFloat("horMoves", horizontal);
     }
     private void HandleMovement(float horizontal, float vertical)
     {

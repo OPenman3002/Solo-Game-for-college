@@ -1,9 +1,15 @@
 fileFormatVersion: 2
 guid: 24bf44d809446b641be1706f894d5c60
-timeCreated: 1524562251
+timeCreated: 1524565928
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: playerright_1
+    21300002: playerright_3
+    21300004: playerright_5
+    21300006: playerright_0
+    21300008: playerright_2
+    21300010: playerright_4
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -85,7 +91,91 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: playerright_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 987
+        width: 225
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: playerright_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1020
+        width: 225
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: playerright_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 510
+        width: 225
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: playerright_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 525
+        width: 225
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: playerright_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 30
+        width: 225
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: playerright_5
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 45
+        width: 225
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
