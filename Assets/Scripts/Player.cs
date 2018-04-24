@@ -42,5 +42,14 @@ public class Player : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("Idle", false);
         }
+
+        if (vertical > 0 && horizontal < 0)
+        {
+            GetComponent<Animator>().SetBool("diagonal", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("diagonal", false);
+        }
     }
 }
