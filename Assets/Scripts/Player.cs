@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("+ve_left_x_diagonal", false);
         }
-        if (vertical >0 && horizontal > 0)
+        if (vertical > 0 && horizontal > 0)
         {
             GetComponent<Animator>().SetBool("+ve_right_x_diagonal", true);
         }
@@ -59,5 +59,24 @@ public class Player : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("+ve_right_x_diagonal", false);
         }
+
+        if (vertical < 0 && horizontal < 0)
+        {
+            GetComponent<Animator>().SetBool("-ve_left_x_diagonal", true);
+
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("-ve_left_x_diagonal", false);
+        }    
+        if (vertical < 0 && horizontal > 0)
+        {
+            GetComponent<Animator>().SetBool("-ve_right_x_diagonal", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("-ve_right_x_diagonal", false);
+        }
     }
+    
 }
