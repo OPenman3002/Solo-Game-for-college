@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 guid: 137af084062606246bbb8c2c6024ccad
-timeCreated: 1524562431
+timeCreated: 1524562991
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: OC running forward_0
+    21300002: OC running forward_1
+    21300004: OC running forward_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -85,7 +88,49 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: OC running forward_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 990
+        width: 270
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OC running forward_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 510
+        width: 270
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OC running forward_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 30
+        width: 270
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

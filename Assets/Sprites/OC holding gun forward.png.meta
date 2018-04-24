@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 guid: 15715a276d054a24a85503a260535d6b
-timeCreated: 1524562432
+timeCreated: 1524562980
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: OC holding gun forward_0
+    21300002: OC holding gun forward_1
+    21300004: OC holding gun forward_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -85,7 +88,49 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: OC holding gun forward_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 990
+        width: 180
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OC holding gun forward_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 510
+        width: 180
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OC holding gun forward_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 30
+        width: 180
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
