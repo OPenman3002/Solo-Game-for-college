@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b74dfb43db9736f4887b0a1a5dc74f96
-timeCreated: 1524679858
+guid: 011263b8cb0d15040a76a7108c0ca41e
+timeCreated: 1524679635
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Chair_0
+    21300000: Table_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -79,28 +79,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chair_0
+      name: Table_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 4
-        width: 14
-        height: 21
+        x: 5
+        y: 7
+        width: 20
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -7, y: 1.1065378}
-        - {x: -6, y: 0.5}
-        - {x: -4.2831335, y: 2.0476494}
-        - {x: -1.0847187, y: 2.1928139}
-        - {x: 0.3238201, y: 2.1080952}
-        - {x: 1.7474155, y: 2.2609024}
-        - {x: 3, y: 1.5}
-        - {x: 3.0038414, y: 10.5}
-        - {x: -7, y: 10.5}
-        - {x: -7, y: 3.6714287}
+      - - {x: -10, y: 5}
+        - {x: -10, y: -5}
+        - {x: 10, y: -5}
+        - {x: 10, y: 5}
       tessellationDetail: 0
     outline: []
     physicsShape: []
