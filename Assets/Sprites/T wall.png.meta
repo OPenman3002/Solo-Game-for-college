@@ -1,12 +1,10 @@
 fileFormatVersion: 2
-guid: 15715a276d054a24a85503a260535d6b
-timeCreated: 1524562980
+guid: 7b2b3e359bc36b642804e385f41aee5f
+timeCreated: 1524664760
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: OC holding gun forward_0
-    21300002: OC holding gun forward_1
-    21300004: OC holding gun forward_2
+    21300000: T wall_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -49,7 +47,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -90,46 +88,24 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OC holding gun forward_0
+      name: T wall_0
       rect:
         serializedVersion: 2
-        x: 147
-        y: 990
-        width: 180
-        height: 405
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: OC holding gun forward_1
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 510
-        width: 180
-        height: 405
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: OC holding gun forward_2
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 30
-        width: 180
-        height: 390
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -7, y: -16}
+        - {x: -7, y: 7}
+        - {x: 16, y: 7}
+        - {x: 16, y: 16}
       tessellationDetail: 0
     outline: []
     physicsShape: []
