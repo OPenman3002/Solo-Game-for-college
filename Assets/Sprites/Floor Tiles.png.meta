@@ -1,15 +1,16 @@
 fileFormatVersion: 2
-guid: 24bf44d809446b641be1706f894d5c60
-timeCreated: 1524565928
+guid: d14622a8501edd24280c1bde391b563e
+timeCreated: 1524653155
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: playerright_1
-    21300002: playerright_3
-    21300004: playerright_5
-    21300006: playerright_0
-    21300008: playerright_2
-    21300010: playerright_4
+    21300000: Floor Tiles_0
+    21300002: Floor Tiles_1
+    21300004: Floor Tiles_2
+    21300006: Floor Tiles_3
+    21300008: Floor Tiles_4
+    21300010: Floor Tiles_5
+    21300012: Floor Tiles_6
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -52,7 +53,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -93,85 +94,99 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: playerright_0
+      name: Floor Tiles_0
       rect:
         serializedVersion: 2
-        x: 125
-        y: 987
-        width: 225
-        height: 405
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: playerright_1
+      name: Floor Tiles_1
       rect:
         serializedVersion: 2
-        x: 615
-        y: 1020
-        width: 225
-        height: 375
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: playerright_2
+      name: Floor Tiles_2
       rect:
         serializedVersion: 2
-        x: 125
-        y: 510
-        width: 225
-        height: 405
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: playerright_3
+      name: Floor Tiles_3
       rect:
         serializedVersion: 2
-        x: 615
-        y: 525
-        width: 225
-        height: 390
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: playerright_4
+      name: Floor Tiles_4
       rect:
         serializedVersion: 2
-        x: 125
-        y: 30
-        width: 225
-        height: 405
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: playerright_5
+      name: Floor Tiles_5
       rect:
         serializedVersion: 2
-        x: 615
-        y: 45
-        width: 225
-        height: 390
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Floor Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
