@@ -2,20 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class equip : MonoBehaviour {
+public class equip : MonoBehaviour
+{
 
-   
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+
+    // Use this for initialization
+    void Start()
+    {
+
+    }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Rotation();
 
+
+    }
+    void Rotation()
+    {
         //rotation
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = 5.23f;
@@ -26,11 +32,10 @@ public class equip : MonoBehaviour {
 
         float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-        if (angle > 100 || angle <-100)
+        if (angle > 100 || angle < -100)
         {
             transform.rotation = Quaternion.Euler(new Vector3(180, 0, -angle));
         }
     }
-
 }
 
