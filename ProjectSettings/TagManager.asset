@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - Floor
   - 
   - 
   - 
@@ -42,5 +42,5 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Player
-    uniqueID: 2569719201
+    uniqueID: 3171152695
     locked: 0
