@@ -12,18 +12,19 @@ public class weapon : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
         bulletExit = transform.Find ("bulletExit");
-		if (bulletExit = null) {
+		if (bulletExit == null) {
             Debug.LogError("No firepoint? WHAT!?");
         }
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        Shoot();
 		if (fireRate == 0)
         {
            if (Input.GetButtonDown ("Fire1"))
                 {
-                Shoot(); 
+                    Shoot(); 
                 }
         }
         else
@@ -37,6 +38,10 @@ public class weapon : MonoBehaviour {
 	}
     void Shoot ()
     {
-        Debug.Log("Test");
+        Debug.Log("BOOM");
+        Vector2 mousePosition = new Vector2(Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
+        Vector2 bulletExitPosition = new Vector2(bulletExit.position.x, bulletExit.position.y);
+        RaycastHit2D hit = Physics2D.Raycast(bulletExitPosition, mousePosition - bulletExitPosition, 100, notToHit);
+        Debug.DrawLine(bulletExitPosition, mousePosition, Color.green);
     }
 }

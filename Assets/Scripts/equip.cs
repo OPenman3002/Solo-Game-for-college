@@ -32,7 +32,7 @@ public class equip : MonoBehaviour
 
         float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-        if (angle > 100 || angle < -100)
+        if (angle > 90 || angle < -90)
         {
             transform.rotation = Quaternion.Euler(new Vector3(180, 0, -angle));
         }
