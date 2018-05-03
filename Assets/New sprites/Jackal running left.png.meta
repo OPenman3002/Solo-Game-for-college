@@ -1,15 +1,13 @@
 fileFormatVersion: 2
-guid: 24bf44d809446b641be1706f894d5c60
-timeCreated: 1524565928
+guid: 49263b83e21473647a57ba64e5020e04
+timeCreated: 1525252139
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: playerright_1
-    21300002: playerright_3
-    21300004: playerright_5
-    21300006: playerright_0
-    21300008: playerright_2
-    21300010: playerright_4
+    21300000: Jackal running left_0
+    21300002: Jackal running left_1
+    21300004: Jackal running left_2
+    21300006: Jackal running left_3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -52,7 +50,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -93,85 +91,57 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: playerright_0
+      name: Jackal running left_0
       rect:
         serializedVersion: 2
-        x: 125
-        y: 987
-        width: 225
-        height: 405
+        x: 13
+        y: 37
+        width: 6
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: playerright_1
+      name: Jackal running left_1
       rect:
         serializedVersion: 2
-        x: 615
-        y: 1020
-        width: 225
-        height: 375
+        x: 45
+        y: 37
+        width: 9
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: playerright_2
+      name: Jackal running left_2
       rect:
         serializedVersion: 2
-        x: 125
-        y: 510
-        width: 225
-        height: 405
+        x: 13
+        y: 5
+        width: 6
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: playerright_3
+      name: Jackal running left_3
       rect:
         serializedVersion: 2
-        x: 615
-        y: 525
-        width: 225
-        height: 390
+        x: 45
+        y: 5
+        width: 6
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: playerright_4
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 30
-        width: 225
-        height: 405
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: playerright_5
-      rect:
-        serializedVersion: 2
-        x: 615
-        y: 45
-        width: 225
-        height: 390
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
