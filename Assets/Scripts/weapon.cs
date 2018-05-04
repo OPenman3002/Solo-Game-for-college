@@ -5,7 +5,7 @@ using UnityEngine;
 public class weapon : MonoBehaviour {
     public float fireRate = 0;
     public float damage = 10;
-    public LayerMask notToHit;
+    public LayerMask whatToHit;
 
     float timeToFire = 0;
     Transform bulletExit;
@@ -38,10 +38,14 @@ public class weapon : MonoBehaviour {
 	}
     void Shoot ()
     {
-        Debug.Log("BOOM");
+        
         Vector2 mousePosition = new Vector2(Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
         Vector2 bulletExitPosition = new Vector2(bulletExit.position.x, bulletExit.position.y);
-        RaycastHit2D hit = Physics2D.Raycast(bulletExitPosition, mousePosition - bulletExitPosition, 100, notToHit);
-        Debug.DrawLine(bulletExitPosition, mousePosition, Color.green);
-    }
+        RaycastHit2D hit = Physics2D.Raycast(bulletExitPosition, mousePosition - bulletExitPosition, 100, whatToHit);
+        if (hit.collider != null)
+        {
+            Debug.DrawLine(bulletExitPosition, hit.point, Color.red);
+
+        }
+    }   
 }

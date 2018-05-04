@@ -15,7 +15,7 @@ TagManager:
   - 
   - Player
   - Floor
-  - 
+  - furniture
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3171152695
+    locked: 0
+  - name: Furniture
+    uniqueID: 1937421803
     locked: 0
