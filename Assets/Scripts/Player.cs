@@ -23,7 +23,6 @@ public class Player : MonoBehaviour
     {
         float vertical = Input.GetAxisRaw("Vertical");
         float horizontal = Input.GetAxisRaw("Horizontal");
-        Debug.Log(vertical);
         HandleMovement(horizontal, vertical);
 
         GetComponent<Animator>().SetFloat("vertMoves", vertical);
