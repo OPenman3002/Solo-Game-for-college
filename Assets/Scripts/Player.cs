@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float MovementSpeed;
 
+    
+
     // Use this for initialization
     void Start()
     {
@@ -21,6 +23,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        
         float vertical = Input.GetAxisRaw("Vertical");
         float horizontal = Input.GetAxisRaw("Horizontal");
         HandleMovement(horizontal, vertical);

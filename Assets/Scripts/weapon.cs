@@ -9,6 +9,8 @@ public class weapon : MonoBehaviour {
 
     public Transform BulletTrailPrefab;
 
+   float timeToSpawnEffect = 0;
+   public float effectSpawnRate = 10;
     float timeToFire = 0;
     Transform bulletExit;
    
@@ -47,7 +49,11 @@ public class weapon : MonoBehaviour {
         Vector2 mousePosition = new Vector2(Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
         Vector2 bulletExitPosition = new Vector2(bulletExit.position.x, bulletExit.position.y);
         RaycastHit2D hit = Physics2D.Raycast(bulletExitPosition, mousePosition - bulletExitPosition, 100, whatToHit);
-        Effect();
+        if (Time.time >= timeToSpawnEffect)
+        {
+            Effect();
+            timeToSpawnEffect = Time.time + 1 / effectSpawnRate;
+        }
         Debug.DrawLine(bulletExitPosition, (mousePosition-bulletExitPosition) * 100 , Color.blue);
         if (hit.collider != null)
         {
