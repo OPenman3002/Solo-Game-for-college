@@ -18,8 +18,7 @@ public class weapon : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-        Shoot();
+	void Update () {   
 		if (fireRate == 0)
         {
            if (Input.GetButtonDown ("Fire1"))
@@ -46,6 +45,8 @@ public class weapon : MonoBehaviour {
         if (hit.collider != null)
         {
             Debug.DrawLine(bulletExitPosition, hit.point, Color.red);
+            Debug.Log("You did" + damage + "damage to" + hit.collider);
+
 
         }
     }   
