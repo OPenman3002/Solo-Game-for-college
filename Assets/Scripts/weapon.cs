@@ -7,18 +7,24 @@ public class weapon : MonoBehaviour {
     public float damage = 10;
     public LayerMask whatToHit;
 
+    public Transform BulletTrailPrefab;
+
     float timeToFire = 0;
     Transform bulletExit;
+   
 	// Use this for initialization
 	void Awake () {
         bulletExit = transform.Find ("bulletExit");
 		if (bulletExit == null) {
             Debug.LogError("No firepoint? WHAT!?");
         }
+       
+        
 	}
 	
 	// Update is called once per frame
-	void Update () {   
+	void Update () {
+        
 		if (fireRate == 0)
         {
            if (Input.GetButtonDown ("Fire1"))
@@ -37,17 +43,21 @@ public class weapon : MonoBehaviour {
 	}
     void Shoot ()
     {
-        
         Vector2 mousePosition = new Vector2(Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
         Vector2 bulletExitPosition = new Vector2(bulletExit.position.x, bulletExit.position.y);
         RaycastHit2D hit = Physics2D.Raycast(bulletExitPosition, mousePosition - bulletExitPosition, 100, whatToHit);
-        
+        Effect();
+        Debug.DrawLine(bulletExitPosition, (mousePosition-bulletExitPosition) * 100 , Color.blue);
         if (hit.collider != null)
         {
             Debug.DrawLine(bulletExitPosition, hit.point, Color.red);
-            Debug.Log("You did" + damage + "damage to" + hit.collider);
+            Debug.Log("You did " + damage + " damage to " + hit.collider);
 
 
         }
-    }   
+    } 
+    void Effect ()
+    {
+        Instantiate(BulletTrailPrefab,bulletExit.position,bulletExit.rotation);
+    }  
 }
