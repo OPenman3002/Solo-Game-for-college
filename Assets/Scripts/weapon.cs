@@ -43,6 +43,7 @@ public class weapon : MonoBehaviour {
 	}
     void Shoot ()
     {
+        
         Vector2 mousePosition = new Vector2(Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
         Vector2 bulletExitPosition = new Vector2(bulletExit.position.x, bulletExit.position.y);
         RaycastHit2D hit = Physics2D.Raycast(bulletExitPosition, mousePosition - bulletExitPosition, 100, whatToHit);
@@ -58,6 +59,6 @@ public class weapon : MonoBehaviour {
     } 
     void Effect ()
     {
-        Instantiate(BulletTrailPrefab,bulletExit.position,bulletExit.rotation);
+        Instantiate (BulletTrailPrefab,bulletExit.position,bulletExit.rotation);
     }  
 }

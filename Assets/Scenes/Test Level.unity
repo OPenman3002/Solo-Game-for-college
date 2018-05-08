@@ -4826,7 +4826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6296855384e0015418d72bc544764a3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 0
+  fireRate: 300
   damage: 10
   whatToHit:
     serializedVersion: 2
