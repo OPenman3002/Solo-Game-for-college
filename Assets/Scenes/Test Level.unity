@@ -236,7 +236,7 @@ TilemapRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: babc560e0ce10134690a7ae395b25655, type: 2}
+  - {fileID: 2100000, guid: 6a79722bb5280d748be887897f01d0d2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4826,11 +4826,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6296855384e0015418d72bc544764a3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 60
+  fireRate: 0
   damage: 10
   whatToHit:
     serializedVersion: 2
     m_Bits: 4294966011
+  MuzzleFlashPrefab: {fileID: 4831756249661974, guid: bee57f9cb4d93774796222fe955fd5e8,
+    type: 2}
   BulletTrailPrefab: {fileID: 4154973718817998, guid: 0572fa02c46f7b5498f995d4c6321d15,
     type: 2}
   effectSpawnRate: 10
