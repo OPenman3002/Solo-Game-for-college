@@ -6,9 +6,12 @@ public class Player : MonoBehaviour
 {
 
     private Rigidbody2D myRigidBody;
-    private Animator anim;
+    
     [SerializeField]
     private float MovementSpeed;
+    
+    
+    public GameObject elevator_0;
 
     
 
@@ -16,8 +19,10 @@ public class Player : MonoBehaviour
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
 
+        elevator_0.GetComponent<Animator>();
+        elevator_0.GetComponent<Animator>().SetBool("NotInUse", false);
+        
     }
 
     // Update is called once per frame
