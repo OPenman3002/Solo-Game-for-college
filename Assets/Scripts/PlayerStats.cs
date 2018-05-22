@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour {
     
-    [System.Serializable]
-    
+
+  
+   
 	public class PlayerStatus
     {
         public int Health = 10;
@@ -30,6 +31,7 @@ public class PlayerStats : MonoBehaviour {
         {
            
             _GM.KillPlayer(this);
+            
         }
     }
 }

@@ -167,8 +167,12 @@ Prefab:
         type: 2}
       propertyPath: elevator_0
       value: 
-      objectReference: {fileID: 1261711922223074, guid: 2d210df9ef28eb445a077b25f6ef2c6f,
+      objectReference: {fileID: 1124012818}
+    - target: {fileID: 114914658436642086, guid: 86db8a658ad595345b286d3179187572,
         type: 2}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 1124012821}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 86db8a658ad595345b286d3179187572, type: 2}
   m_IsPrefabParent: 0
@@ -468,8 +472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5fdfb271f24049448795fd790eab134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerstatus:
-    Health: 10
   fallBoundry: -5
 --- !u!70 &436386292
 CapsuleCollider2D:
@@ -783,6 +785,16 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3fe9dee88049c204782f7d0f69b0d60a, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1124012818 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1261711922223074, guid: 2d210df9ef28eb445a077b25f6ef2c6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1598125797}
+--- !u!95 &1124012821 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 95152692512310228, guid: 2d210df9ef28eb445a077b25f6ef2c6f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1598125797}
 --- !u!1 &1597665144
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,7 +806,7 @@ GameObject:
   - component: {fileID: 1597665146}
   - component: {fileID: 1597665145}
   m_Layer: 0
-  m_Name: whoa dyuuude
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
