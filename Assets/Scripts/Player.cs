@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     private float MovementSpeed;
     
     
-    public GameObject elevator_0;
+    
 
     
 
@@ -20,8 +20,7 @@ public class Player : MonoBehaviour
     {
         myRigidBody = GetComponent<Rigidbody2D>();
 
-        elevator_0.GetComponent<Animator>();
-        elevator_0.GetComponent<Animator>().SetBool("NotInUse", false);
+        
         
     }
 

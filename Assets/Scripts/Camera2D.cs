@@ -15,6 +15,8 @@ public class Camera2D : MonoBehaviour {
     Vector3 currentVelocity;
     Vector3 lookAheadPos;
 
+    float nextTimeToSearch = 0;
+
 	// Use this for initialization
 	void Start () {
         lastTargetPosition = target.position;
@@ -24,6 +26,13 @@ public class Camera2D : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        if (target == null)
+        {
+            FindPlayer();
+            return;
+        }
+            
+
         // only update look ahead pos if accelerating or changed direction 
         float xMoveDelta = (target.position - lastTargetPosition).x;
 
@@ -45,4 +54,16 @@ public class Camera2D : MonoBehaviour {
         lastTargetPosition = target.position;
 		
 	}
+
+    void FindPlayer()
+    {
+        if (nextTimeToSearch <= Time.time)
+        {
+            GameObject SearchResults = GameObject.FindGameObjectWithTag("Player");
+            if (SearchResults != null)
+            
+                target = SearchResults.transform;
+            nextTimeToSearch = Time.time + 0.5f;
+        }
+    }
 }

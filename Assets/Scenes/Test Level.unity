@@ -155,7 +155,7 @@ Prefab:
         type: 2}
       propertyPath: playerPrefab
       value: 
-      objectReference: {fileID: 4944030182254554, guid: 486c37914d75ed4478c24c490fb7ec3e,
+      objectReference: {fileID: 4262794448282564, guid: 486c37914d75ed4478c24c490fb7ec3e,
         type: 2}
     - target: {fileID: 114914658436642086, guid: 86db8a658ad595345b286d3179187572,
         type: 2}
@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 436386291}
   m_Layer: 8
   m_Name: 'Player '
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -539,7 +539,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementSpeed: 5
-  elevator_0: {fileID: 1124012818}
 --- !u!212 &436386296
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -784,11 +783,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3fe9dee88049c204782f7d0f69b0d60a, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1124012818 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1261711922223074, guid: 2d210df9ef28eb445a077b25f6ef2c6f,
-    type: 2}
-  m_PrefabInternal: {fileID: 1598125797}
 --- !u!1 &1597665144
 GameObject:
   m_ObjectHideFlags: 0
