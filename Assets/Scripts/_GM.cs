@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class _GM : MonoBehaviour {
     public GameObject elevator_0;
+   
+     
      public Animator anim;
     public static _GM gm;
     void Start ()
@@ -15,6 +17,7 @@ public class _GM : MonoBehaviour {
         }
         anim = elevator_0.GetComponent<Animator>();
         anim.SetBool("NotInUse", true);
+
         
     }
 
@@ -34,6 +37,7 @@ public class _GM : MonoBehaviour {
     }
     public static void KillPlayer (PlayerStats playerstats ) 
     {
+
         Destroy (playerstats.gameObject);
 
         gm.StartCoroutine(gm.RespawnPlayer());

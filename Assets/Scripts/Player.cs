@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
         {
             GetComponent<Animator>().SetBool("-ve_right_x_diagonal", false);
         }
+        
     }
     
 }
