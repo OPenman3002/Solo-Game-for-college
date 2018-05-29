@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D myRigidBody;
 	Animator anim;
-	var	child;
+	
     [SerializeField]
     private float MovementSpeed;
     
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     {
         myRigidBody = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator> ();
-		child = transform.Find ("equip");
+		
         
     }
 
@@ -86,10 +86,10 @@ public class Player : MonoBehaviour
         }
 		if (anim.GetBool ("Dead") == true) {
 			MovementSpeed = 0;
-			Destroy (child);
+			
 		} 
 		else {
-			MovementSpeed = 10;
+			MovementSpeed = MovementSpeed;
 		}
         
     }
