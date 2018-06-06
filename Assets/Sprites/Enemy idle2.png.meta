@@ -1,9 +1,17 @@
 fileFormatVersion: 2
 guid: a8c6fe3bde232c74b8b388b815aaba98
-timeCreated: 1524562433
+timeCreated: 1528289772
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Enemy idle2_0
+    21300002: Enemy idle2_1
+    21300004: Enemy idle2_2
+    21300006: Enemy idle2_3
+    21300008: Enemy idle2_4
+    21300010: Enemy idle2_5
+    21300012: Enemy idle2_6
+    21300014: Enemy idle2_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -31,7 +39,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -85,7 +93,91 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Enemy idle2_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1005
+        width: 180
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy idle2_2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1005
+        width: 195
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy idle2_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 525
+        width: 195
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy idle2_4
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 525
+        width: 240
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy idle2_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 47
+        width: 239
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy idle2_7
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 45
+        width: 195
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
